@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "PC Speaker Support"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware snd-pcsp.cfg

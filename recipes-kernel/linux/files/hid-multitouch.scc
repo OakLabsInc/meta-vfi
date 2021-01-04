@@ -1,0 +1,4 @@
+define KFEATURE_DESCRIPTION "USB HID Multitouch Inputs"
+define KFEATURE_COMPATIBILITY board
+
+kconf hardware hid-multitouch.cfg

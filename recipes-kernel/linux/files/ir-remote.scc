@@ -1,0 +1,5 @@
+define KFEATURE_DESCRIPTION "Enable Features needed for IR remotes"
+define KFEATURE_COMPATIBILITY board
+
+include features/media/media-rc.scc
+kconf hardware ir-remote.cfg
