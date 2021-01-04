@@ -28,7 +28,6 @@ SRC_URI =+ "\
 PR = "r1"
 #PV = "${LINUX_VERSION}-verifone"
 
-#INITRAMFS_IMAGE = "initramfs-image-oak"
 
 #ROOTFS_POSTPROCESS_COMMAND += "clobber_unused"
 #clobber_unused () {
