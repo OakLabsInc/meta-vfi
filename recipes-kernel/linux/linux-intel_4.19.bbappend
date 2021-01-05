@@ -9,8 +9,8 @@ SRC_URI += " \
     file://wifi.cfg \
     file://androidFragment.cfg \
     file://USBSerial.cfg \
+    file://docker.cfg \
 "
-#    file://ath10k.cfg 
 
 KERNEL_EXTRA_FEATURES_append = " \
     features/leds/leds.scc \
@@ -24,9 +24,9 @@ SRC_URI =+ "\
     file://dmabuff.cfg \
 "
 
-#LINUX_VERSION_EXTENSION = "-verifone"
+#LINUX_VERSION_EXTENSION = "-vfi"
 PR = "r1"
-#PV = "${LINUX_VERSION}-verifone"
+#PV = "${LINUX_VERSION}-vfi"
 
 
 #ROOTFS_POSTPROCESS_COMMAND += "clobber_unused"
