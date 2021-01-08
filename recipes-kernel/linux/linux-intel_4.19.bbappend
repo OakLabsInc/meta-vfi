@@ -12,6 +12,8 @@ SRC_URI += " \
     file://docker.cfg \
 "
 
+KERNEL_FEATURES_append = " docker.scc"
+
 KERNEL_EXTRA_FEATURES_append = " \
     features/leds/leds.scc \
     features/mei/amt.scc \
