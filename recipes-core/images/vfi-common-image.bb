@@ -192,6 +192,9 @@ IMAGE_INSTALL = " \
   xscreensaver \
   xserver-xorg \
   zlib \
+  gdbserver \
+  freefont-ttf \
+  ioport-utils \
 "
 
 IMAGE_INSTALL_remove = "\
