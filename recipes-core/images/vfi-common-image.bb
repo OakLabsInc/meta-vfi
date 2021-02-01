@@ -195,6 +195,7 @@ IMAGE_INSTALL = " \
   gdbserver \
   freefont-ttf \
   ioport-utils \
+  sboot-sign-kernel \ 
 "
 
 IMAGE_INSTALL_remove = "\
